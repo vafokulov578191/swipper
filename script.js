@@ -155,3 +155,20 @@ Pause_3.onclick = () => {
     myAudio_3.pause()
 }
 
+let swiper_prev = document.querySelector('.swiper-button-prev')
+let swiper_next = document.querySelector('.swiper-button-next')
+
+swiper_prev.onclick = () => {
+    myAudio.pause()
+    myAudio_1.pause()
+    myAudio_2.pause()
+    myAudio_3.pause()
+}
+
+swiper_next.onclick = () => {
+    myAudio.pause()
+    myAudio_1.pause()
+    myAudio_2.pause()
+    myAudio_3.pause()
+}
+
