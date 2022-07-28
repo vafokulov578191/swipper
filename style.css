@@ -1,0 +1,271 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.swiper {
+    width: 1200px;
+    height: 300px;
+}
+
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.swiper-pagination span {
+    background-color: white;
+}
+
+#my-audio-id {
+    width: 800px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #DDDDDD;
+    color: white;
+}
+
+#my-audio-id_1 {
+    width: 800px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+#my-audio-id_2 {
+    width: 800px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+#my-audio-id_3 {
+    width: 800px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+/* 0 */
+
+.name {
+    margin-left: 10px;
+}
+
+.time {
+    margin-left: 200px;
+    color: white;
+}
+
+/* 1 */
+
+.name_1 {
+    margin-left: 10px;
+}
+
+.time_1 {
+    margin-left: 515px;
+    color: white;
+}
+
+/* 2 */
+
+.name_2 {
+    margin-left: 10px;
+}
+
+.time_2 {
+    margin-left: 421px;
+    color: white;
+}
+
+/* 3 */
+
+.name_3 {
+    margin-left: 10px;
+}
+
+.time_3 {
+    margin-left: 479px;
+    color: white;
+}
+
+
+.Play {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #3077EC;
+    transition: all .3s ease;
+}
+
+.Pause {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #E04F5F;
+    border: none;
+    border-radius: 50%;
+    transition: all .3s ease;
+}
+
+.active {
+    display: none;
+    background-color: #E04F5F;
+}
+
+.pause_img {
+    display: none;
+    background-color: #3077EC;
+}
+
+/* 1 */
+
+.Play_1 {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #3077EC;
+    transition: all .3s ease;
+}
+
+.Pause_1 {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #E04F5F;
+    border: none;
+    border-radius: 50%;
+    transition: all .3s ease;
+}
+
+.active_1 {
+    display: none;
+    background-color: #E04F5F;
+}
+
+.pause_img_1 {
+    display: none;
+    background-color: #3077EC;
+}
+
+/* 2 */
+
+.Play_2 {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #3077EC;
+    transition: all .3s ease;
+}
+
+.Pause_2 {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #E04F5F;
+    border: none;
+    border-radius: 50%;
+    transition: all .3s ease;
+}
+
+.active_2 {
+    display: none;
+    background-color: #E04F5F;
+}
+
+.pause_img_2 {
+    display: none;
+    background-color: #3077EC;
+}
+
+/* 3 */
+
+.Play_3 {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #3077EC;
+    transition: all .3s ease;
+}
+
+.Pause_3 {
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: #E04F5F;
+    border: none;
+    border-radius: 50%;
+    transition: all .3s ease;
+}
+
+.active_3 {
+    display: none;
+    background-color: #E04F5F;
+}
+
+.pause_img_3 {
+    display: none;
+    background-color: #3077EC;
+}
+
